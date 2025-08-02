@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>House Price Prediction</title>
+</head>
+
+<body>
+    <h2>Enter House Details</h2>
+    <form method="POST" action="/predict">
+        Area: <input type="number" name="area"><br>
+        Bedrooms: <input type="number" name="bedrooms"><br>
+        Bathrooms: <input type="number" name="bathrooms"><br>
+        Stories: <input type="number" name="stories"><br>
+        Parking: <input type="number" name="parking"><br>
+        Furnishing (0=Unfurnished, 1=Semi, 2=Furnished): <input type="number" name="furnishingstatus"><br>
+        Mainroad (1=Yes, 0=No): <input type="number" name="mainroad"><br>
+        Guestroom (1=Yes, 0=No): <input type="number" name="guestroom"><br>
+        Basement (1=Yes, 0=No): <input type="number" name="basement"><br>
+        Hotwater (1=Yes, 0=No): <input type="number" name="hotwaterheating"><br>
+        Airconditioning (1=Yes, 0=No): <input type="number" name="airconditioning"><br>
+        Prefarea (1=Yes, 0=No): <input type="number" name="prefarea"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
